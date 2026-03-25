@@ -1,0 +1,42 @@
+.navbar {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(8,11,20,0.85);
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid var(--border);
+}
+.navbar-inner {
+  max-width: 1200px; margin: 0 auto; padding: 0 24px;
+  height: 64px; display: flex; align-items: center; gap: 32px;
+}
+.navbar-brand {
+  display: flex; align-items: center; gap: 10px;
+  text-decoration: none; flex-shrink: 0;
+}
+.brand-icon { font-size: 22px; color: var(--accent); }
+.brand-text { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 18px; color: var(--text); }
+
+.navbar-links {
+  display: flex; align-items: center; gap: 8px; flex: 1;
+}
+.nav-link {
+  padding: 6px 14px; border-radius: 8px; font-size: 14px; font-weight: 500;
+  color: var(--text2); text-decoration: none; transition: all 0.2s;
+}
+.nav-link:hover, .nav-link.active { color: var(--text); background: var(--bg3); text-decoration: none; }
+.nav-link.active { color: var(--accent); }
+
+.navbar-user {
+  display: flex; align-items: center; gap: 12px; flex-shrink: 0;
+}
+.user-avatar {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  display: flex; align-items: center; justify-content: center;
+  font-family: 'Syne', sans-serif; font-weight: 700; font-size: 14px; color: #fff;
+}
+.user-name { font-size: 14px; color: var(--text2); }
+
+@media (max-width: 640px) {
+  .user-name { display: none; }
+  .navbar-links .nav-link { display: none; }
+}
