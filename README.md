@@ -313,7 +313,7 @@ Register / Login
 | Styles | Custom CSS, CSS variables, Syne + DM Sans fonts |
 | Backend | Node.js 18, Express 4 |
 | Database | MongoDB + Mongoose |
-| AI | Google Gemini 1.5 Flash |
+| AI | Google Gemini 3 Flash |
 | Auth | JWT + bcryptjs |
 | Security | Helmet, express-rate-limit |
 | Dev | nodemon |
