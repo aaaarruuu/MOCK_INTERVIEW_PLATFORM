@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ⬡ InterviewAI — AI Mock Interview Platform
 
 A full-stack web application that conducts AI-powered mock interviews, evaluates answers in real time, and generates detailed performance reports using Google Gemini.
@@ -345,6 +344,3 @@ Register / Login
 ## 📄 License
 
 MIT — free to use, modify and distribute.
-=======
-# MOCK_INTERVIEW_PLATFORM
->>>>>>> f04fbda0f6fc4c106ae15b9b5ec0f97a5a2b418d
